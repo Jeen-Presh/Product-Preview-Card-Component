@@ -1,0 +1,23 @@
+{
+  "name": "productpreviewcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeen-Presh/Product-Preview-Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeen-Presh/Product-Preview-Card/issues"
+  },
+  "homepage": "https://github.com/Jeen-Presh/Product-Preview-Card#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

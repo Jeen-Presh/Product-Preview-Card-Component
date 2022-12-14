@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #f2ebe3;
+  font-size: 14px;
+  line-height: 1.4;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw; }
+
+.bg-light {
+  background: #ffffff; }
+
+.lead-text {
+  margin-top: 1.5rem;
+  font-family: 'Fraunces',cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  color: #1c232b; }
+
+.description-text {
+  margin: 1rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #6c7289;
+  font-size: .8rem; }
+
+.sr-only {
+  position: absolute;
+  left: -9999px;
+  color: transparent;
+  background-color: transparent;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+.price {
+  display: flex;
+  align-items: center; }
+
+.current-price {
+  color: #3c8067;
+  font-family: 'Fraunces',cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-right: 1rem; }
+
+.previous-price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #6c7289; }
+
+.btn {
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  justify-content: center;
+  padding: .9rem .5rem;
+  background: #3c8067;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem; }
+
+.btn {
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  transition: background ease-in-out 1s; }
+  .btn svg {
+    margin-right: .8rem; }
+  .btn:hover {
+    background: #1A4031; }
+
+.card {
+  max-width: 550px;
+  display: flex;
+  border-radius: .7rem; }
+  .card picture {
+    flex: 50%; }
+  .card section {
+    flex: 50%;
+    padding: 1.5rem 2rem; }
+    .card section h1 {
+      font-family: 'Fraunces', serif;
+      font-weight: 500;
+      color: #6c7289;
+      font-size: .8rem;
+      letter-spacing: .4rem; }
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: .7rem 0 0 .7rem; }
+
+@media (max-width: 767px) {
+  .card {
+    display: block;
+    width: 21.5rem; }
+  img {
+    border-radius: .7rem .7rem 0 0; } }
